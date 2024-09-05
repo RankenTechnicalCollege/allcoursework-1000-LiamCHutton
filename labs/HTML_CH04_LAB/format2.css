@@ -1,0 +1,17 @@
+body
+{
+  background-color: yellow;
+  color: green;
+}
+
+a
+    {
+      background-color: #CCCCCC;
+    }
+
+  h1
+  {
+    background-color: white;
+    font-family: Times New Roman;
+    color: green;
+  }
