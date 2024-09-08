@@ -1,0 +1,41 @@
+@import url(normalize.css);
+
+body {
+  background-color: rgb(133, 63, 187);
+  margin: 20px;
+}
+
+h1 {
+  background-color: rgb(115, 0, 255);
+  color: #00ffff;
+  font-size: 3em;
+  background-color: rgba(196, 112, 237, 0.5);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  margin: 18pt 0;
+  font-size: 2em;
+  background-color: rgba(196, 112, 237, 0.5);
+}
+
+div ul {
+  color: #00e3ef;
+}
+
+div, ul, p {
+  font-weight: bold;
+}
+
+div > h2 {
+  font-size: 3em;
+  color:#00e3ef;
+}
+
+div > ul:hover {
+  color:blue;
+}
+
+footer {
+  font: italic small-caps bold 16px/1.5 Arial, sans-serif;
+}
