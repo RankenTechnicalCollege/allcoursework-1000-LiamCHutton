@@ -1,0 +1,37 @@
+h1 {
+  background-color: rgb(115, 0, 255);
+  color: #00ffff;
+  font-size: 3em;
+  background-color: rgba(196, 112, 237, 0.5);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+main > p {
+  font: bold 16px/1.5 serif, sans-serif;
+  font-size: 20px;
+}
+
+aside ol {
+  color: #00e3ef;
+}
+
+aside, ol, p {
+  font-weight: bold;
+}
+
+aside > h1 {
+  font-size: 3em;
+  color:#00e3ef;
+}
+
+aside > ol:hover {
+  color:blue;
+}
+
+footer {
+  font: italic small-caps bold 16px/1.5 Arial, sans-serif;
+}
+
+p { color: blue; }
+p { background-color: rgb(107, 175, 200)}
+ol { background-color: rgb(32, 60, 34)}
