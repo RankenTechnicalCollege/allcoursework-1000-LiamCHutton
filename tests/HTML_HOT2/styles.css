@@ -1,0 +1,33 @@
+header {
+  background-color: #feedb6; /* Light grey background */
+  color: black;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 20vh;
+  background-image: url('Images/CarneAsadaTacos.jpg');
+  color: black;
+}
+
+.one {background-color: rgb(186, 100, 100)}
+.two {background-color: rgb(228, 224, 98)}
+.three {background-color: rgb(98, 224, 228)}
+.four {background-color: rgb(98, 128, 228)}
+.five {background-color: rgb(98, 228, 105)}
+
+.menu {
+  background-color: orange;
+  padding: 10px;
+}
+
+.map {
+  background-color: yellow;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
