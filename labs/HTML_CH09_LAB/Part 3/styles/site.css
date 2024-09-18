@@ -1,0 +1,40 @@
+
+.maincolumn1{
+  width: 30%;
+}
+.maincolumn2{
+  width: 70%;
+}
+
+.liampic{
+  width: 420px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: lightgray;
+  padding: 2px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: white;
+}
+
+.navbar{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
