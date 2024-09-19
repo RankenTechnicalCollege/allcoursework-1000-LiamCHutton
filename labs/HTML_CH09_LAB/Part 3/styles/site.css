@@ -1,15 +1,30 @@
-
-.maincolumn1{
-  width: 30%;
+header {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 20px;
 }
-.maincolumn2{
-  width: 70%;
+
+.header-logo img {
+  max-width: 100%;
+  height: auto;
 }
 
-.liampic{
-  width: 420px;
-  height: 400px;
+.header-text {
+  position: absolute;
+  text-align: left;
+  margin-left: 110px;
   margin-top: 10px;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 16px;
+  color: gray;
 }
 
 .navbar ul{
@@ -37,4 +52,22 @@
 .navbar{
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.navbar li {
+  margin-right: 100px; 
+}
+
+.main{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.liampic{
+  width: 420px;
+  height: 400px;
+  margin-top: 10px;
+  display: flex;
+  margin-right: 20px;
 }

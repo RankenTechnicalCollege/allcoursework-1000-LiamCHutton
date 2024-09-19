@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2b0242;
+}
+
+.nav-link {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #893cc0;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #06cee4;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+}
