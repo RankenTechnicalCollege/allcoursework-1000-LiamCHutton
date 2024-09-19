@@ -14,17 +14,20 @@ header {
   position: absolute;
   text-align: left;
   margin-left: 110px;
-  margin-top: 10px;
 }
 
 .Title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .tagline {
-  font-size: 16px;
+  font-size: 20px;
   color: gray;
+}
+
+body{
+  margin: 0;
 }
 
 .navbar ul{
@@ -36,6 +39,8 @@ header {
   display: flex;
   justify-content: space-evenly;
   font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navbar a{
@@ -64,10 +69,142 @@ header {
   flex-direction: row;
 }
 
-.liampic{
+.home{
+  display: flex;
+  flex-direction: column;
+}
+
+.education{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.selfie{
   width: 420px;
   height: 400px;
   margin-top: 10px;
   display: flex;
   margin-right: 20px;
+}
+
+.maincontent{
+  display: flex;
+  flex-direction: left;
+  margin-left: 20px;
+}
+
+footer{
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footercopyright{
+  justify-self: flex-end;
+  text-align: end;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px){
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+  }
+
+  .header-text {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .navbar li {
+    margin-right: 0;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .selfie {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .maincontent {
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .footercopyright {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .navbar ul {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar li {
+    margin-right: 50px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .selfie {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .navbar li {
+    margin-right: 80px;
+  }
+
+  .selfie {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjust layout for large desktops */
+  .navbar ul {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .navbar li {
+    margin-right: 100px;
+  }
+
+  .selfie {
+    width: 420px;
+    height: 400px;
+  }
 }
