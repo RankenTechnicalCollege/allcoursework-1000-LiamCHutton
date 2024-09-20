@@ -1,0 +1,178 @@
+.header-logo{
+  width: 110px;
+  height: auto;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  padding-bottom: 10px;
+}
+
+.header-text{
+  margin-top:14px;
+  margin-right: 5px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+}
+
+.cta-text{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
+
+.toptext{
+  font-size: 2.5em;
+}
+
+.bottomtext{
+  font-size: 2em;
+}
+
+.buy-now-button{
+  background-color: navy;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 20px
+}
+
+.main-top{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.main-top > img{
+  border-radius: 50%;
+}
+
+.main-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.featuredproducts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.main-bottom > h1{
+  align-self: center;
+  font-size: 2.5em;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .main-top {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .featuredproducts {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .featuredproducts > div {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  section {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cta-text {
+    align-items: flex-start;
+  }
+
+  .main-top {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .featuredproducts {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .featuredproducts > div {
+    width: auto;
+  }
+
+  .main-bottom {
+    flex-direction: row;
+    align-items: center;
+  }
+}
