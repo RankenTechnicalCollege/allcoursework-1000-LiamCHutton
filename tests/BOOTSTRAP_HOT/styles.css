@@ -1,0 +1,19 @@
+
+.jumbotron-custom{
+  background-image: url('images/computerlab.jpg');
+}
+
+.jumbotron{
+  text-shadow: 2px 2px 4px rgba(0, 0, 10, 5);
+  color:white;
+}
+
+.section {
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  padding: 20px;
+  border:2px solid black;
+  border-collapse: collapse;
+}

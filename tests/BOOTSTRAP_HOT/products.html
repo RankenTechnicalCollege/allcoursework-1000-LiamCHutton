@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+   <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light navbar-light">
+      <div class="container-fluid">
+        <div class="d-flex flex-column">
+          <a class="navbar-brand fw-bold" href="#">Flywheel Entertainment</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+   </header>
+
+  <!-- Main -->
+   <main>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-custom border-custom p-5" >
+      <h1 class="display-4 fw-bold">Spotlight Product</h1>
+      <p class="lead fw-bold">Destiny 2 is on sale for a limited time! Take this offer before it's too late!</p>
+
+    </div>
+    <hr class="my-4">
+
+    <!-- Bootstrap Grid -->
+    <div class="container">
+      <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3 section">
+              <div class="card">
+                  <img src="images/apexlegendslogo.png" class="card-img-top" alt="Apex Legends Logo">
+                  <div class="card-body">
+                      <h5 class="card-title">
+                          <a href="#">Apex Legends</a>
+                      </h5>
+                      <p class="card-text">A thrilling BR experience in which you go up against 50 players!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 section">
+              <div class="card">
+                  <img src="images/destinylogo.jpg" class="card-img-top" alt="Destiny Logo">
+                  <div class="card-body">
+                      <h5 class="card-title">
+                          <a href="#">Destiny 2</a>
+                      </h5>
+                      <p class="card-text">A lore-rich looter shooter that will keep you engaged!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 section">
+              <div class="card">
+                  <img src="images/satisfactorylogo.png" class="card-img-top" alt="Satisfactory Logo">
+                  <div class="card-body">
+                      <h5 class="card-title">
+                          <a href="#">Satisfactory</a>
+                      </h5>
+                      <p class="card-text">A factory building simulator in which you harvest a planet to save the day!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 section">
+              <div class="card">
+                  <img src="images/halologo.jpg" class="card-img-top" alt="Halo Logo">
+                  <div class="card-body">
+                      <h5 class="card-title">
+                          <a href="#">Halo</a>
+                      </h5>
+                      <p class="card-text">An interstellar shooter focused on defending humanity!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+   </main>
+
+   <!-- Footer -->
+  <footer class="footer bg-dark text-white p-2">
+    <p class="text-center">&copy; 2024 Flywheel Entertainment</p>
+  </footer>
+</body>
+</html>
