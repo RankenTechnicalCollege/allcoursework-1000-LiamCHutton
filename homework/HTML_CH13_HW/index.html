@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="music_survey" action="#">
+    <!-- Name & Email -->
+    <h1>Music Survey</h1>
+    <label for="name">Name</label><br>
+    <input type="text" id="name"><br>
+    <label for="name">Email:</label><br>
+    <input type="text" id="email"><br><br>
+
+    <!-- Type of music -->
+     <fieldset>
+      <legend>Select Your Favorite Type of Music:</legend>
+
+      <input type="checkbox" name="genre1" id="genre1" value="pop">
+      <label for="genre1">Pop</label><br>
+
+      <input type="checkbox" name="genre2" id="genre2" value="classical">
+      <label for="genre2">Classical</label><br>
+
+      <input type="checkbox" name="genre3" id="genre3" value="rock">
+      <label for="genre3">Rock</label><br>
+
+      <input type="checkbox" name="genre4" id="genre4" value="folk">
+      <label for="genre4">Folk</label><br>
+
+      <input type="checkbox" name="genre5" id="genre5" value="rap">
+      <label for="genre5">Rap</label><br>
+
+      <input type="checkbox" name="genre6" id="genre6" value="other">
+      <label for="genre6">Other</label><br>
+    </fieldset><br>
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend class="boldlabel">Select how often you purchase Music CDs:</legend>
+
+      <input type="radio" name="oftencd" id="oftencd1" value="weekly">
+      <label for="oftencd1">Weekly</label><br>
+
+      <input type="radio" name="oftencd" id="oftencd2" value="few">
+      <label for="few">A few CDs each year</label><br>
+
+      <input type="radio" name="oftencd" id="oftencd3" value="monthly">
+      <label for="monthly">Monthly</label><br>
+
+      <input type="radio" name="oftencd" id="oftencd4" value="never">
+      <label for="oftencd2">Never purchase</label>
+    </fieldset><br>
+
+    <!-- Dropdown Menu -->
+    <label for="name">Select the locations you listen to Music</label><br>
+    <select name="cars" id="cars">
+      <option value="home">At home</option>
+      <option value="car">In the car</option>
+      <option value="anywhere">Anywhere (MP3 Player)</option>
+    </select><br><br>
+
+    <label for="musiclife">What role does music play in your life?</label><br>
+    <textarea id="musiclife" rows="8" cols="100"></textarea><br><br>
+
+    <input type="submit" id="submit" value="Submit">
+    <input type="reset" id="reset" value="Reset">
+  </form><br><br>
+
+  <footer>Liam Hutton | liamhutton05@gmail.com</footer>
+</body>
+</html>

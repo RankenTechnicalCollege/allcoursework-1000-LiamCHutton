@@ -1,0 +1,13 @@
+label {
+  font-weight: bold;
+}
+
+legend {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+body{
+  margin: 20px;
+}
