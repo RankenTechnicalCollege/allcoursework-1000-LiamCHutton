@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <!-- Icon Grid -->
+      <div class="row mt-4">
+        <h2 class="text-center">CheezIt</h2>
+        <div class="col-6 col-md-3 text-center">
+          <div class="icon bg-light p-3 rounded-circle mb-2">
+            <i class="bi bi-house-door" style="font-size: 2rem;"></i>
+          </div>
+          <a href="#home">Home</a>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <div class="icon bg-light p-3 rounded-circle mb-2">
+          <i class="bi bi-person" style="font-size: 2rem;"></i>
+        </div>
+        <a href="#profile">Profile</a>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <div class="icon bg-light p-3 rounded-circle mb-2">
+          <i class="bi bi-gear" style="font-size: 2rem;"></i>
+        </div>
+        <a href="#login.html">Login</a>
+      </div>
+      <div class="col-6 col-md-3 text-center">
+        <div class="icon bg-light p-3 rounded-circle mb-2">
+          <i class="bi bi-envelope" style="font-size: 2rem;"></i>
+        </div>
+        <a href="#messages">Messages</a>
+      </div>
+
+    <!-- Accordion -->
+    <div class="col-12 col-md-2"></div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Original CheezIts
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Extra Toasty CheezIts
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Be casual with the original CheezIts flavor!
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Extra Toasty CheezIts are great!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+      <!-- Col 2: List Group -->
+      <div class="col-12 col-md-2">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            Original
+            <span class="badge bg-primary rounded-pill">1</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            Extra Toasty
+            <span class="badge bg-primary rounded-pill">2</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            Puffed
+            <span class="badge bg-primary rounded-pill">3</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            White Cheddar
+            <span class="badge bg-primary rounded-pill">4</span>
+          </a>
+        </div>
+      </div><br>
+
+      <!-- Responsive Image -->
+      <div class="col-12 col-md-2">
+        <img src="images/boxInPile.jpg" class="img-fluid" alt="Responsive Image">
+      </div><br>
+
+      <div class="col-12 col-md-2">
+        <img src="images/cheezitCrackers.jpg" class="img-fluid" alt="Responsive Image">
+      </div><br>
+
+      <!-- Column 4: Modal -->
+      <div class="col-12 col-md-2">
+        <!-- Button to trigger the modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          About extra toasty CheezIts
+        </button>
+
+        <!-- Modal Structure -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Extra Toasty</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Click to learn more!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="col-12 col-md-2">
+        <span class="h1">CheezIts are Cool!</span>
+        <p>Did you know CheezIts are cool and everyone should eat them?</p>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/boxInPile.jpg" class="d-block w-100" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/boxSpill.jpg" class="d-block w-100" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cheezitBowl.jpg" class="d-block w-100" alt="Third slide">
+        </div>
+      </div>
+
+      <!-- Controls (Previous/Next buttons) -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card" style="background-image: url('images/cheezitCrackers.jpg'); background-size: cover; height: 300px; color: white;">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Crackers</h5>
+          <p class="card-text">This is a pile of CheezIts</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card" style="background-image: url('images/cheezitBox.jpg'); background-size: cover; height: 300px; color: white;">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">CheezIt Box</h5>
+          <p class="card-text">This is a CheezIt box.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card" style="background-image: url('images/cheezitGrid.jpg'); background-size: cover; height: 300px; color: white;">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">CheezIt Grid</h5>
+          <p class="card-text">Just a cool image of a pile of CheezIts assorted into a grid.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
