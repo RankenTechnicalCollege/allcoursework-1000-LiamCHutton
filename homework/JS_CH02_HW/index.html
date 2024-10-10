@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Guys</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1 class="p-4">Five Guys Order</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col pt-3">
+          <div class="col">
+            <label for="burgers">Burgers:</label>
+          </div>
+          <div class="col">
+            <input type="text" id="burgers">
+          </div>
+          </div>
+
+        <div class="pt-3">
+          <label for="fries">Fries:</label>
+          <div class="col">
+            <input type="text" id="fries">
+          </div>
+        </div>
+
+        <div class="pt-3">
+          <label for="sodas">Sodas:</label>
+          <div class="col">
+            <input type="text" id="sodas" disabled>
+          </div>
+        </div>
+
+        <div class="pt-3">
+          <label>&nbsp;</label>
+          <div>
+            <input type="button" id="calculate" value="Calculate Order Total">
+          </div>
+
+          <div class="pt-3">
+            <label>&nbsp;</label>
+            <div>
+              <p id="totalDisplay"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="order.js"></script>
+</body>
+</html>
