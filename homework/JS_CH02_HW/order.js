@@ -1,18 +1,19 @@
 "use strict";
 
-let burgerPrice = 1;
-let friesPrice = 2;
-let sodaPrice = 2.50;
+const $ = selector => document.querySelector(selector);
+const burgerPrice = 1;
+const friesPrice = 2;
+const sodaPrice = 2.50;
 
-const processEntries = () => {
-  const burgers = parseFloat($("#burgers").value)
-  const fries = parseFloat($("#fries").value)
-  const sodas = parseFloat($("#sodas").value)
+document.getElementById('calculate').onclick = () => {
+  const burgers = $("#burgers").value;
+  const fries = $("#fries").value;
+  const sodas = $("#sodas").value;
 
   const burgerTotal = burgers * burgerPrice;
   const friesTotal = fries * friesPrice;
   const sodaTotal = sodas * sodaPrice;
   let total = burgerTotal + friesTotal + sodaTotal;
-};
 
-document.getElementById("totalDisplay").innerText = `Total: ${total}`;
+  document.getElementById("totalDisplay").innerText = `Total: $${total}`;
+};
