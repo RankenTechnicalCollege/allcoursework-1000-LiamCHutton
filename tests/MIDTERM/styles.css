@@ -1,0 +1,41 @@
+
+.jumbotron-custom{
+  background-image: url('images/blue_rose_resized.png');
+}
+
+.jumbotron{
+  text-shadow: 2px 2px 4px rgba(0, 0, 10, 5);
+  color:white;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.section {
+  padding: 20px;
+}
+.card {
+  width: 100%;
+  padding: 20px;
+  border:2px solid black;
+  border-collapse: collapse;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
