@@ -2,7 +2,7 @@ const $ = selector => document.querySelector(selector);
 
 document.addEventListener("DOMContentLoaded", () => {
     
-    $("#join_list").addEventListener("click", () => {
+    $("#join_List").addEventListener("click", () => {
         // get values user entered in textboxes
         const email1 = $("#email_1").value;
         const email2 = $("#email_2").value;
@@ -12,24 +12,24 @@ document.addEventListener("DOMContentLoaded", () => {
         let errorMessage = "";
 
         // check user entries - add text to error message if invalid
-        if (email1 === "") { 
+        if (email1 == "") { 
             errorMessage += "First email is required.\n";
         }
     
-        if (email2 === "") { 
+        if (email2 == "") { 
             errorMessage += "Second email is required.\n";
         }
     
-        if (email1 !== email2) { 
+        if (email1 != email2) { 
             errorMessage += "Both emails must match.\n";
         }
     
-        if (firstName === "") {
+        if (firstName == "") {
             errorMessage += "First name is required.\n";
         }
     
         // submit the form if error message is an empty string
-        if (errorMessage === "") {
+        if (errorMessage = "") {
             $("#email_form").submit();
         } else {
             alert(errorMessage);            

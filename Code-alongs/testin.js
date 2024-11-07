@@ -1,14 +1,9 @@
-const tax = .07;
+const calculateTax = (subtotal,taxRate) => {
 
-const getCost = (itemCost, numItems) => {
+   let salesTax = subtotal * taxRate;
 
-   const subtotal = itemCost * numItems;
+   salestax = parseFloat(salesTax.toFixed(2));
 
-   const tax = 0.06;
-
-   const total = subtotal + subtotal * tax;
-
-   return total;
-
-}
-alert(tax)
+   return salesTax;
+   alert(salesTax);
+};
