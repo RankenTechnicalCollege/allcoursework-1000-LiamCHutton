@@ -2,7 +2,7 @@
 
 // the event handler for the click event of each h2 element
 const toggle = evt => {
-    const aElement = evt.currentPage;                    // get the clicked a element
+    const aElement = evt.currentTarget;                    // get the clicked a element
     const h2Element = aElement.parentElement;              // get the clicked h2 element
     const divElement = h2Element.nextElementSibling;     // get h2's sibling div
 

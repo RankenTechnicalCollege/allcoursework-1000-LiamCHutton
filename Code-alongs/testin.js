@@ -1,9 +1,11 @@
-const calculateTax = (subtotal,taxRate) => {
+const p = document.createElement("p");
 
-   let salesTax = subtotal * taxRate;
+const ptext = document.createTextNode("Total tax: 4.99");
 
-   salestax = parseFloat(salesTax.toFixed(2));
+p.appendChild(ptext);
 
-   return salesTax;
-   alert(salesTax);
-};
+ 
+
+const main = $("main");
+
+main.appendChild(p);

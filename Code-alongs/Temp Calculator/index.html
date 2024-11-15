@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Convert Temperatures</title>
+    <link rel="stylesheet" href="temp_calc.css">
+</head>
+
+<body>
+  <main>
+    <h1>Convert Temperatures</h1>
+    <form action="confirm.html" method="get">
+      <div>
+        <div>
+          <div class="radiobuttons">
+            <input type="radio" name="celAndFah" id="fah_to_cel" value="fah_to_cel" checked> Fahrenheit to Celsius
+          </div>
+        </div>
+        <div>
+          <div class="radiobuttons">
+            <input type="radio" name="celAndFah" id="cel_to_fah" value="cel_to_fah"> Celsius to Fahrenheit
+          </div>
+        </div>
+      </div>
+
+      <div class="textboxes">
+        <label for="fahrenheit">Enter F degrees:</label>
+        <input type="text" name="fahrenheit" id="fahrenheit">
+      </div>
+      <div class="textboxes">
+        <label for="celsius">Degrees Celsius:</label>
+        <input type="text" name="celsius" id="celsius">
+      </div>
+
+      <div class="convertButton">
+        <label>&nbsp;</label>
+        <input type="button" id="convert" value="Convert">
+      </div>
+    </form>
+  </main>
+  <script src="temp_calc.js"></script>
+</body>
+</html>
