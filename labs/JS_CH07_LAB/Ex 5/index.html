@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="slider.css">
+  <title>Image Slider Research</title>
+</head>
+<body>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <a href="images/bison.jpg" title="Grazing Bison">
+          <img src="images/bison.jpg" alt="Grazing Bison">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="images/deer.jpg" title="Deer">
+          <img src="images/deer.jpg" alt="Deer">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="images/hero.jpg" title="Hero">
+          <img src="images/hero.jpg" alt="Hero">
+        </a>
+      </div>
+      <!-- Add more slides as needed -->
+    </div>
+
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+  <script src="slider.js"></script>
+</body>
+</html>
