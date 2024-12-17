@@ -1,0 +1,10 @@
+#addShip{
+  border-radius: 5%;
+  padding: 5em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+li{
+  color: white;
+}
